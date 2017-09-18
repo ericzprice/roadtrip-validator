@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Cargo Validator</title>
+    <!-- mobile ready -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- my css -->
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+
+  <body class="container">
+    <br>
+    <a class="btn btn-default" href="/" role="button">Home</a>
+    <h1>Cargo To Bring On Your Road Trip</h1>
+    You can bring up to 200lbs or $200.00 worth of items, or both.
+    <hr>
+    <!-- cargo item row, image, buttons -->
+    <div class="row">
+      <div id="gallon-water" class="col-xs-6">
+        <img src="/images/gallon-jug-water.jpg" class="responsive cargo-image">
+        <br><b>Gallon Jug Of Water | $1.00 | 8.0 lbs</b>
+        <button type="button" class="btn btn-success" id="add-water">Add</button>
+        <button type="button" class="btn btn-danger" id="remove-water">Remove</button>
+      </div>
+      <div id="tent" class="col-xs-6">
+        <img src="/images/tent.jpg" class="responsive cargo-image">
+        <br><b>Tent | $40.00 | 3.5 lbs</b>
+        <button type="button" class="btn btn-success" id="add-tent">Add</button>
+        <button type="button" class="btn btn-danger" id="remove-tent">Remove</button>
+      </div>
+    </div>
+    <br>
+    <!-- cargo item row, image, buttons -->
+    <div class="row">
+      <div id="lantern" class="col-xs-6">
+        <img src="/images/lantern.jpg" class="responsive cargo-image">
+        <br><b>Lantern | $35.00 | 0.8 lbs</b>
+        <button type="button" class="btn btn-success" id="add-lantern">Add</button>
+        <button type="button" class="btn btn-danger" id="remove-lantern">Remove</button>
+      </div>
+      <div id="camping-chair" class="col-xs-6">
+        <img src="/images/camping-chair.jpg" class="responsive cargo-image">
+        <br><b>Camping Chair | $20.00 | 3.4 lbs</b>
+        <button type="button" class="btn btn-success" id="add-chair">Add</button>
+        <button type="button" class="btn btn-danger" id="remove-chair">Remove</button>
+      </div>
+    </div>
+    <hr>
+    <h4>TOTAL COST: <span id="total-cost"></span></h4>
+    <h4>TOTAL WEIGHT: <span id="total-weight"></span></h4>
+    <p id="cargo-status"></p>
+    <hr>
+    <button type="button" class="btn btn-danger" id="validate-button">VALIDATE CARGO</button>
+    <br><br>
+    <p id="validator-status"></p>
+    <br><br>
+
+    <!-- jQuery js -->
+    <script
+    src="http://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <!-- bootstrap js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- any custom js -->
+    <script src="/js/main.js"></script>
+
+  </body>
+
+</html>

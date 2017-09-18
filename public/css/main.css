@@ -1,0 +1,31 @@
+body {
+    background-color: #fff;
+}
+
+a {
+    color: #000;
+}
+
+p {
+    color: #000;
+}
+a:hover {
+    color: #196F3D;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+ul, div.container {
+  padding: 0px;
+}
+.btn-info, .btn-default {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+.btn-info:hover, .btn-default:hover {
+    color: #fff;
+    background-color: #196F3D;
+    border-color: #196F3D;
+}
